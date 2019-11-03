@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    <title>Music Player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/design.css" />
+    <link rel="stylesheet" href="css/sidebar.css">
+   
+</head>
+<body id="background">
+    
+    <div class="container">
+
+        <!-- reserved space for custom side navigation bar -->
+        <div id="playlist" class="sideNav">
+           
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <ul>
+                    <li title="Red.mp3"> Red.mp3 </li>
+                  <li title="All Too Well.mp3"> All Too Well.mp3 </li>
+                  <li title="Bad_Blood.mp3"> Bad_Blood.mp3 </li>
+                  <li title="Mine.mp3"> Mine.mp3 </li>
+                 
+              </ul>
+        </div>
+
+        <span style="font-size:30px;cursor:pointer;color: #fff;" onclick="openNav()">&#9776; PLAYLIST</span>
+       
+
+        
+         <div id="holder">
+             <div id="cover">
+                  <img class="coverimg" />
+             </div>
+
+             <div id="audio_player">
+
+                 <div id="tracker">
+                     <div id="progressBar">
+                           <span id="progress"></span>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col-sm-6" >
+                          <div id="audio_info">
+                            <div id="timer"></div>  <h3 id="title"></h3> 
+                             
+                             
+                          </div>
+                     </div>
+                     <div class="col-sm-6">
+                          <div id="buttons">
+                              
+                                 <div id="prev"></div>
+                                 <div id="play"></div>
+                                 <div id="pause"></div>
+                                 <div id="stop"></div>
+                                 <div id="next"></div>
+                             
+                         </div>
+                    </div>
+                 </div>
+             </div>
+
+         </div>
+        
+    </div>
+
+
+</body>
+<script src="js/jquery.js"></script>
+
+
+<script src="js/sidebar.js"></script>
+<script src="js/application.js"></script>
+<script src="js/bootstrap.js"></script>
+</html>

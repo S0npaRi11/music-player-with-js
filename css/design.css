@@ -1,0 +1,191 @@
+html{
+    background: #404040;
+}
+
+body{
+    background: #404040;
+}
+
+.container{
+   
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 400px;
+   
+}
+
+#holder{
+    box-shadow: 0px 4px 8px 0px rgba(0, 0,0, 0.7);
+    margin: 0 0 0 0;
+    height: 100%;
+    border: outset;
+    border-color: #101010;
+    border-width: thin;
+}
+
+#cover{
+    display: block;
+    height: 70%;
+    background: url('../backgrounds/bg-4.png') no-repeat center;
+}
+
+
+
+
+
+#audio_player{
+    height: 30%;
+    background: #fff;
+}
+
+
+#tracker{
+    width: 0;
+    height: 7px;
+    background: #000;
+    transition: 0.5s;
+}
+
+.row{
+    height: 113px;
+}
+
+.col-sm-6{
+    height: 100%;
+}
+
+#timer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000;
+    text-align: left;
+}
+
+#buttons{
+    margin-top: 20px;
+    height: 80px;
+    padding-bottom: 20px;
+    padding-left:100px;
+    
+}
+
+
+
+#prev{
+    width: 60px;
+    height: 60px;
+    background: url(../icon/prev.png) no-repeat round; float: left;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#play{
+    width: 60px;
+    height: 60px;
+    background: url(../icon/play.png) no-repeat round; float: left;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#pause{
+    width: 60px;
+    height: 60px;
+    background: url(../icon/pause.png) no-repeat round; float: left;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#stop{
+    width: 60px;
+    height: 60px;
+    background: url(../icon/stop.png) no-repeat round; float: left;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+#next{
+    width: 60px;
+    height: 60px;
+    background: url(../icon/next.png) no-repeat round; float: left;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#timer{
+   position: relative;
+    padding-left: 75px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150px;
+    color: rgba(0, 0, 0, 0.1);
+    margin-top: -50px;
+}
+h3{
+    padding-left: 15px; 
+    position: absolute;
+    margin-bottom: 5px;
+    margin-top: -160px;
+}
+
+#prev:hover{
+    height: 80px;
+    width: 80px;
+    margin-top: -5px;
+    box-shadow: rgba(0, 0,0, 0.4);
+    border-width: 1px;
+    border-color:#000;
+    transition: 0.3s; 
+}
+
+#play:hover{
+    height: 80px;
+    width: 80px;
+    margin-top: -5px;
+    box-shadow: rgba(0, 0,0, 0.4);
+    border-width: 1px;
+    border-color:#000;
+    transition: 0.3s; 
+}
+
+#pause:hover{
+    height: 80px;
+    width: 80px;
+    margin-top: -5px;
+    box-shadow: rgba(0, 0,0, 0.4);
+    border-width: 1px;
+    border-color:#000;
+    transition: 0.3s; 
+}
+
+#stop:hover{
+    height: 80px;
+    width: 80px;
+    margin-top: -5px;
+    box-shadow: rgba(0, 0,0, 0.4);
+    border-width: 1px;
+    border-color:#000;
+    transition: 0.3s; 
+}
+
+#next:hover{
+    height: 80px;
+    width: 80px;
+    margin-top: -5px;
+    box-shadow: rgba(0, 0,0, 0.4);
+    border-width: 1px;
+    border-color:#000;
+    transition: 0.3s; 
+}
+
+#prev:hover{
+    height: 80px;
+    width: 80px;
+    margin-top: -5px;
+    box-shadow: rgba(0, 0,0, 0.4);
+    border-width: 1px;
+    border-color:#000;
+    transition: 0.3s; 
+}
+
+
+
+
